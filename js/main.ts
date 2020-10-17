@@ -5,7 +5,7 @@ class Blog{
     Location: string;
     Address: any;
     img: string;
-    price: string;
+    price?: string;
     web: string;
 
 
