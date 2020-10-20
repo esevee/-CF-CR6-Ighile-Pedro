@@ -24,7 +24,7 @@ class Blog{
     }
 
     render(){
-        return `<div class = "col-lg-6 col-sm-12"> <p>${this.Location}</p><p>${this.Address}</p> </p><p>${this.price}</p><p><a target="_blank" href="https://${this.web}">${this.web}</a></p><img class="img-fluid mb-2" style="width: 40rem; height: 30rem;" src="${this.img}"> </div>`
+        return `<div class = "col-lg-3 col-md-6 col-sm-12 mt-4 mb-5"> <p>${this.Location}</p><p>${this.Address}</p> </p><p>${this.price}</p><p><a target="_blank" href="https://${this.web}">${this.web}</a></p><img class="img-fluid mb-2 d-none d-md-block d-lg-block" style="width: 40rem; height: 30rem;" src="${this.img}"> </div>`
     }
 }
 
